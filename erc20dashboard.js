@@ -1,7 +1,7 @@
 
 	if (typeof erc20contract_address == "undefined") {
 		var erc20contract_address = "0x7e9e431a0b8c4d532c745b1043c7fa29a48d4fba"; // eosDAC contract address
-		var option_etherscan_api = 'https://ropsten.etherscan.io'; //change to https://api.etherscan.io for mainnet
+		var option_etherscan_api = 'https://api.etherscan.io'; //change to https://ropsten.etherscan.io for testnet
 		var option_registration_enabled = true;
 		var option_registration_backend = '';///'subscribe.php'; //you can use remote address like https://yoursite.com/subscribe.php
 		var option_recive_btc = ''; //reserved for future
